@@ -11,7 +11,6 @@ galleryItems.forEach((element) => {
   image.classList.add("gallery__image");
   image.src = element.preview;
   image.alt = element.description;
-  image.dataset.source = element.original;
   link.append(image);
 });
 
