@@ -15,12 +15,6 @@ galleryItems.forEach((element) => {
   link.append(image);
 });
 
-gallery.addEventListener("click", (event) => {
-  event.preventDefault();
-  const clickedElement = event.target;
-  if (clickedElement.nodeName !== "IMG") return;
-});
-
 const lightbox = new SimpleLightbox(".gallery a", {
   captionDelay: 250,
   captionsData: "alt",
