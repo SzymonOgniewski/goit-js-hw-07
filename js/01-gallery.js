@@ -8,7 +8,7 @@ const instance = basicLightbox.create(
 `,
   {
     closable: true,
-  }
+  } 
 );
 const gallery = document.querySelector(".gallery");
 
